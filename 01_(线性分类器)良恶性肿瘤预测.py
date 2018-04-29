@@ -6,13 +6,21 @@ from sklearn.linear_model import  LogisticRegression, SGDClassifier
 from sklearn.metrics import classification_report
 
 '''
+线性分类器
+最基本和常用的机器学习模型
+受限于数据特征与分类目标的线性假设
+逻辑斯蒂回归 计算时间长，模型性能略高
+随机参数估计 计算时间短，模型性能略低
+'''
+
+'''
 1 数据预处理
 '''
 # 创建特征列表
 column_names = ['Sample code number', 'Clump Thickness', 'Uniformity of Cell Size',
                 'Uniformity of Cell Shape', 'Marginal Adhesion', 'Single Epithelial Cell size',
                 'Bare Nuclei', 'Bland Chromatin', 'Normal Nucleoli', 'Mitoses', 'Class']
-# 使用pandas.read_csv从互联网读取数据集
+# 使用pandas.read_csv取数据集
 data = pd.read_csv('./data/breast-cancer-wisconsin.data', names=column_names)
 # 将?替换为标准缺失值表示
 data = data.replace(to_replace='?', value=np.nan)
@@ -50,8 +58,8 @@ Name: Class, dtype: int64
 '''
 # 数据标准化，保证每个维度特征的方差为1 均值为0 预测结果不会被某些维度过大的特征值主导
 ss = StandardScaler()
-x_train = ss.fit_transform(x_train)
-x_test = ss.fit_transform(x_test)
+x_train = ss.fit_transform(x_train)     # 对x_train进行标准化
+x_test = ss.transform(x_test)       # 用与x_train相同的规则对x_test进行标准化，不重新建立规则
 
 # 分别使用 逻辑斯蒂回归 和 随机参数估计 两种方法进行学习预测
 

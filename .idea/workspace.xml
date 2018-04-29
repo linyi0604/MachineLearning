@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5f64bb2-7501-4c2c-8f4a-a387b2fc6b5f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/kaggle.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Machinelearning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02回归预测/01_(线性回归)预测波士顿房价.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,25 +13,27 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Machinelearning$02___.coverage" NAME="02_(支持向量机分类器)手写数字识别 Coverage Results" MODIFIED="1524996518324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01分类预测" />
+    <SUITE FILE_PATH="coverage/Machinelearning$01___.coverage" NAME="01_(线性回归)预测波士顿房价 Coverage Results" MODIFIED="1525000076707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02回归预测" />
     <SUITE FILE_PATH="coverage/kaggle$02_.coverage" NAME="02 手写数字识别 Coverage Results" MODIFIED="1524961460564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02(支持向量机)手写数字识别" />
     <SUITE FILE_PATH="coverage/kaggle$04__k_.coverage" NAME="04_(k紧邻分类器)鸢尾花分类 Coverage Results" MODIFIED="1524966445216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
     <SUITE FILE_PATH="coverage/kaggle$01___1_.coverage" NAME="01_良恶性肿瘤预测完整 (1) Coverage Results" MODIFIED="1524959880849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01(线性回归)良恶性肿瘤预测" />
     <SUITE FILE_PATH="coverage/kaggle$03___.coverage" NAME="03_(朴素贝叶斯分类器)新闻分类 Coverage Results" MODIFIED="1524963480066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Machinelearning$06___.coverage" NAME="06_(集成模型分类)预测泰坦尼克幸存 Coverage Results" MODIFIED="1524992625962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/kaggle$01_.coverage" NAME="01_良恶性肿瘤预测完整 Coverage Results" MODIFIED="1524929298990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01肿瘤预测" />
+    <SUITE FILE_PATH="coverage/Machinelearning$05_____1_.coverage" NAME="05_(决策树分类)预测泰坦尼克号乘客是否生还 (1) Coverage Results" MODIFIED="1524996479480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01分类预测" />
     <SUITE FILE_PATH="coverage/kaggle$01___.coverage" NAME="01_(线性分类器)良恶性肿瘤预测 Coverage Results" MODIFIED="1524968677872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/kaggle$05___.coverage" NAME="05_(决策树分类)预测泰坦尼克号乘客是否生还 Coverage Results" MODIFIED="1524970423293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="05_(决策树分类)预测泰坦尼克号乘客是否生还.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/05_(决策树分类)预测泰坦尼克号乘客是否生还.py">
+      <file leaf-file-name="01_(线性回归)预测波士顿房价.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/02回归预测/01_(线性回归)预测波士顿房价.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+            <state relative-caret-position="1500">
+              <caret line="60" column="10" lean-forward="true" selection-end-line="82" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
-                <element signature="e#311#575#1" />
+                <element signature="e#0#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,6 +65,9 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/01_(线性分类器)良恶性肿瘤预测.py" />
         <option value="$PROJECT_DIR$/05_(决策树分类)预测泰坦尼克号乘客是否生还.py" />
+        <option value="$PROJECT_DIR$/01分类预测/05_(决策树分类)预测泰坦尼克号乘客是否生还.py" />
+        <option value="$PROJECT_DIR$/01分类预测/02_(支持向量机分类器)手写数字识别.py" />
+        <option value="$PROJECT_DIR$/02回归预测/01_(线性回归)预测波士顿房价.py" />
       </list>
     </option>
   </component>
@@ -87,23 +91,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Machinelearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kaggle" type="462c0819:PsiDirectoryNode" />
+              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Machinelearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kaggle" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="01分类预测" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -115,10 +119,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\WorkSpaces\PycharmProject\MachineLearning\01分类预测" />
+      <recent name="C:\WorkSpaces\PycharmProject\MachineLearning" />
       <recent name="C:\WorkSpaces\PycharmProject\kaggle\data\titanic" />
       <recent name="C:\WorkSpaces\PycharmProject\kaggle\data\01_肿瘤预测" />
       <recent name="C:\WorkSpaces\PycharmProject\kaggle" />
-      <recent name="$PROJECT_DIR$/01肿瘤预测/data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -133,8 +138,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.06_(集成模型分类)预测泰坦尼克幸存">
-    <configuration name="01_(线性分类器)良恶性肿瘤预测" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.01_(线性回归)预测波士顿房价">
+    <configuration name="01_(线性回归)预测波士顿房价" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Machinelearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -142,18 +147,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02回归预测" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\WorkSpaces\PycharmProject\MachineLearning\01分类预测\01_(线性分类器)良恶性肿瘤预测.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02回归预测/01_(线性回归)预测波士顿房价.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="03_(朴素贝叶斯分类器)新闻分类" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="02_(支持向量机分类器)手写数字识别" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Machinelearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -161,18 +166,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01分类预测" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\WorkSpaces\PycharmProject\MachineLearning\01分类预测\03_(朴素贝叶斯分类器)新闻分类.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01分类预测/02_(支持向量机分类器)手写数字识别.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="04_(k紧邻分类器)鸢尾花分类" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="05_(决策树分类)预测泰坦尼克号乘客是否生还 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Machinelearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -180,12 +185,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01分类预测" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\WorkSpaces\PycharmProject\kaggle\04_(k紧邻分类器)鸢尾花分类.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01分类预测/05_(决策树分类)预测泰坦尼克号乘客是否生还.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -230,19 +235,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.03_(朴素贝叶斯分类器)新闻分类" />
-      <item itemvalue="Python.04_(k紧邻分类器)鸢尾花分类" />
-      <item itemvalue="Python.01_(线性分类器)良恶性肿瘤预测" />
       <item itemvalue="Python.05_(决策树分类)预测泰坦尼克号乘客是否生还" />
       <item itemvalue="Python.06_(集成模型分类)预测泰坦尼克幸存" />
+      <item itemvalue="Python.05_(决策树分类)预测泰坦尼克号乘客是否生还 (1)" />
+      <item itemvalue="Python.02_(支持向量机分类器)手写数字识别" />
+      <item itemvalue="Python.01_(线性回归)预测波士顿房价" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.01_(线性回归)预测波士顿房价" />
+        <item itemvalue="Python.02_(支持向量机分类器)手写数字识别" />
+        <item itemvalue="Python.05_(决策树分类)预测泰坦尼克号乘客是否生还 (1)" />
         <item itemvalue="Python.06_(集成模型分类)预测泰坦尼克幸存" />
         <item itemvalue="Python.05_(决策树分类)预测泰坦尼克号乘客是否生还" />
-        <item itemvalue="Python.01_(线性分类器)良恶性肿瘤预测" />
-        <item itemvalue="Python.04_(k紧邻分类器)鸢尾花分类" />
-        <item itemvalue="Python.03_(朴素贝叶斯分类器)新闻分类" />
       </list>
     </recent_temporary>
   </component>
@@ -260,16 +265,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.3297491" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3512545" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.29928315" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14955537" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32078853" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2311828" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2174616" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32983023" />
@@ -292,35 +298,37 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/05_(决策树分类)预测泰坦尼克号乘客是否生还.py">
+    <entry file="file://$PROJECT_DIR$/01分类预测/05_(决策树分类)预测泰坦尼克号乘客是否生还.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01分类预测/05_(决策树分类)预测泰坦尼克号乘客是否生还.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
-            <element signature="e#311#575#1" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_(线性分类器)良恶性肿瘤预测.py">
+    <entry file="file://$PROJECT_DIR$/01分类预测/01_(线性分类器)良恶性肿瘤预测.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2350">
           <caret line="94" column="45" lean-forward="true" selection-start-line="94" selection-start-column="45" selection-end-line="94" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_(线性分类器)良恶性肿瘤预测.py">
+    <entry file="file://$PROJECT_DIR$/01分类预测/01_(线性分类器)良恶性肿瘤预测.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../venvs/ml_py3/Lib/site-packages/sklearn/cross_validation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
@@ -348,41 +356,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02_(支持向量机分类器)手写数字识别.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="15" selection-end-line="68" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03_(朴素贝叶斯分类器)新闻分类.py">
+    <entry file="file://$PROJECT_DIR$/01分类预测/03_(朴素贝叶斯分类器)新闻分类.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="36" selection-end-line="97" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_(线性分类器)良恶性肿瘤预测.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04_(k紧邻分类器)鸢尾花分类.py">
+    <entry file="file://$PROJECT_DIR$/01分类预测/04_(k紧邻分类器)鸢尾花分类.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05_(决策树分类)预测泰坦尼克号乘客是否生还.py">
+    <entry file="file://$PROJECT_DIR$/01分类预测/06_(集成模型分类)预测泰坦尼克幸存.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        <state relative-caret-position="208">
+          <caret line="126" column="52" lean-forward="true" selection-start-line="126" selection-start-column="52" selection-end-line="126" selection-end-column="52" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
-            <element signature="e#311#575#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01分类预测/05_(决策树分类)预测泰坦尼克号乘客是否生还.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="58" column="9" lean-forward="true" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01分类预测/02_(支持向量机分类器)手写数字识别.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../venvs/ml_py3/Lib/site-packages/sklearn/cross_validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80">
+          <caret line="1986" column="7" lean-forward="true" selection-start-line="1986" selection-start-column="7" selection-end-line="1986" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01分类预测/01_(线性分类器)良恶性肿瘤预测.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2510">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02回归预测/01_(线性回归)预测波士顿房价.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="60" column="10" lean-forward="true" selection-end-line="82" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>

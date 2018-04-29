@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/kaggle.iml" filepath="$PROJECT_DIR$/.idea/kaggle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Machinelearning.iml" filepath="$PROJECT_DIR$/.idea/Machinelearning.iml" />
     </modules>
   </component>
 </project>

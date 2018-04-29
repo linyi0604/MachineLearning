@@ -147,7 +147,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01_(线性分类器)良恶性肿瘤预测.py" />
+      <option name="SCRIPT_NAME" value="C:\WorkSpaces\PycharmProject\MachineLearning\01分类预测\01_(线性分类器)良恶性肿瘤预测.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,7 +166,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_(朴素贝叶斯分类器)新闻分类.py" />
+      <option name="SCRIPT_NAME" value="C:\WorkSpaces\PycharmProject\MachineLearning\01分类预测\03_(朴素贝叶斯分类器)新闻分类.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,7 +204,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05_(决策树分类)预测泰坦尼克号乘客是否生还.py" />
+      <option name="SCRIPT_NAME" value="C:\WorkSpaces\PycharmProject\MachineLearning\01分类预测\05_(决策树分类)预测泰坦尼克号乘客是否生还.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -223,7 +223,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_(集成模型分类)预测泰坦尼克幸存.py" />
+      <option name="SCRIPT_NAME" value="C:\WorkSpaces\PycharmProject\MachineLearning\01分类预测\06_(集成模型分类)预测泰坦尼克幸存.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />

@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from sklearn.cross_validation import train_test_split
 from sklearn.preprocessing import StandardScaler
-from sklearn.linear_model import  LogisticRegression, SGDClassifier
+from sklearn.linear_model import LogisticRegression, SGDClassifier
 from sklearn.metrics import classification_report
 
 '''

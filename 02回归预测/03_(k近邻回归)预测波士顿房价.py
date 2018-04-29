@@ -52,16 +52,16 @@ dis_knr_y_predict = dis_knr.predict(x_test)
 print("平均k近邻回归的默认评估值为：", uni_knr.score(x_test, y_test))
 print("平均k近邻回归的R_squared值为：", r2_score(y_test, uni_knr_y_predict))
 print("平均k近邻回归的均方误差为:", mean_squared_error(ss_y.inverse_transform(y_test),
-                                              ss_y.inverse_transform(uni_knr_y_predict)))
+                                           ss_y.inverse_transform(uni_knr_y_predict)))
 print("平均k近邻回归 的平均绝对误差为:", mean_absolute_error(ss_y.inverse_transform(y_test),
-                                                 ss_y.inverse_transform(uni_knr_y_predict)))
+                                               ss_y.inverse_transform(uni_knr_y_predict)))
 # 距离加权k近邻回归 模型评估
 print("距离加权k近邻回归的默认评估值为：", dis_knr.score(x_test, y_test))
 print("距离加权k近邻回归的R_squared值为：", r2_score(y_test, dis_knr_y_predict))
 print("距离加权k近邻回归的均方误差为:", mean_squared_error(ss_y.inverse_transform(y_test),
-                                           ss_y.inverse_transform(dis_knr_y_predict)))
+                                             ss_y.inverse_transform(dis_knr_y_predict)))
 print("距离加权k近邻回归的平均绝对误差为:", mean_absolute_error(ss_y.inverse_transform(y_test),
-                                              ss_y.inverse_transform(dis_knr_y_predict)))
+                                                ss_y.inverse_transform(dis_knr_y_predict)))
 
 '''
 平均k近邻回归的默认评估值为： 0.6903454564606561

@@ -21,7 +21,7 @@ column_names = ['Sample code number', 'Clump Thickness', 'Uniformity of Cell Siz
                 'Uniformity of Cell Shape', 'Marginal Adhesion', 'Single Epithelial Cell size',
                 'Bare Nuclei', 'Bland Chromatin', 'Normal Nucleoli', 'Mitoses', 'Class']
 # 使用pandas.read_csv取数据集
-data = pd.read_csv('./data/breast-cancer-wisconsin.data', names=column_names)
+data = pd.read_csv('./data/breast/breast-cancer-wisconsin.data', names=column_names)
 # 将?替换为标准缺失值表示
 data = data.replace(to_replace='?', value=np.nan)
 # 丢失带有缺失值的数据 只要有一个维度有缺失就丢弃

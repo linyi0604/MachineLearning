@@ -6,9 +6,9 @@ from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
 import numpy as np
 
 '''
-随机森林
-极端随机森林
-GradientBoostingRegressor
+随机森林回归
+极端随机森林回归
+梯度提升回归
 
 通常集成模型能够取得非常好的表现
 '''
@@ -54,7 +54,7 @@ etr.fit(x_train, y_train)
 # 预测 保存预测结果
 etr_y_predict = rfr.predict(x_test)
 
-# GradientBoostingRegressor模型
+# 梯度提升回归
 gbr = GradientBoostingRegressor()
 # 训练
 gbr.fit(x_train, y_train)
@@ -78,13 +78,13 @@ print("极端随机森林回归的均方误差为:", mean_squared_error(ss_y.inv
 print("极端随机森林回归的平均绝对误差为:", mean_absolute_error(ss_y.inverse_transform(y_test),
                                                ss_y.inverse_transform(gbr_y_predict)))
 
-# GradientBoostingRegressor回归模型评估
-print("GradientBoostingRegressor回归的默认评估值为：", gbr.score(x_test, y_test))
-print("GradientBoostingRegressor回归的R_squared值为：", r2_score(y_test, etr_y_predict))
-print("GradientBoostingRegressor回归的均方误差为:", mean_squared_error(ss_y.inverse_transform(y_test),
-                                                               ss_y.inverse_transform(etr_y_predict)))
-print("GradientBoostingRegressor回归的平均绝对误差为:", mean_absolute_error(ss_y.inverse_transform(y_test),
-                                                                  ss_y.inverse_transform(etr_y_predict)))
+# 梯度提升回归模型评估
+print("梯度提升回归回归的默认评估值为：", gbr.score(x_test, y_test))
+print("梯度提升回归回归的R_squared值为：", r2_score(y_test, etr_y_predict))
+print("梯度提升回归回归的均方误差为:", mean_squared_error(ss_y.inverse_transform(y_test),
+                                            ss_y.inverse_transform(etr_y_predict)))
+print("梯度提升回归回归的平均绝对误差为:", mean_absolute_error(ss_y.inverse_transform(y_test),
+                                               ss_y.inverse_transform(etr_y_predict)))
 
 '''
 随机森林回归的默认评估值为： 0.8391590262557747

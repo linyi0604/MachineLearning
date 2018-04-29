@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5f64bb2-7501-4c2c-8f4a-a387b2fc6b5f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01分类预测/01_(线性分类器)良恶性肿瘤预测.py" beforeDir="false" afterPath="$PROJECT_DIR$/01分类预测/01_(线性分类器)良恶性肿瘤预测.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02回归预测/03_(k近邻回归)预测波士顿房价.py" beforeDir="false" afterPath="$PROJECT_DIR$/02回归预测/03_(k近邻回归)预测波士顿房价.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02回归预测/05(集成模型回归)预测波士顿房价.py" beforeDir="false" afterPath="$PROJECT_DIR$/02回归预测/05(集成模型回归)预测波士顿房价.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,8 +44,8 @@
       <file leaf-file-name="05(集成模型回归)预测波士顿房价.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/02回归预测/05(集成模型回归)预测波士顿房价.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+            <state relative-caret-position="215">
+              <caret line="86" column="47" selection-start-line="86" selection-start-column="47" selection-end-line="86" selection-end-column="47" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -488,8 +486,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/02回归预测/05(集成模型回归)预测波士顿房价.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+        <state relative-caret-position="215">
+          <caret line="86" column="47" selection-start-line="86" selection-start-column="47" selection-end-line="86" selection-end-column="47" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>

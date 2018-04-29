@@ -6,6 +6,7 @@ from sklearn.linear_model import LogisticRegression, SGDClassifier
 from sklearn.metrics import classification_report
 
 '''
+博文：http://www.cnblogs.com/Lin-Yi/p/8970510.html
 线性分类器
 最基本和常用的机器学习模型
 受限于数据特征与分类目标的线性假设

@@ -5,6 +5,8 @@ from sklearn.ensemble import RandomForestRegressor, ExtraTreesRegressor, Gradien
 from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
 import numpy as np
 
+# 博文：http://www.cnblogs.com/Lin-Yi/p/8972051.html
+
 '''
 随机森林回归
 极端随机森林回归

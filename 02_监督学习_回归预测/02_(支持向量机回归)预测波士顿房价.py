@@ -5,6 +5,8 @@ from sklearn.svm import SVR
 from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
 import numpy as np
 
+# 博文：http://www.cnblogs.com/Lin-Yi/p/8971845.html
+
 # 1 准备数据
 # 读取波士顿地区房价信息
 boston = load_boston()

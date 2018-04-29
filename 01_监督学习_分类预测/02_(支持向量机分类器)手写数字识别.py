@@ -6,6 +6,8 @@ from sklearn.svm import LinearSVC
 from sklearn.metrics import classification_report
 
 '''
+博文：http://www.cnblogs.com/Lin-Yi/p/8970520.html
+
 支持向量机
 根据训练样本的分布，搜索所有可能的线性分类器最佳的一个。
 从高纬度的数据中筛选最有效的少量训练样本。

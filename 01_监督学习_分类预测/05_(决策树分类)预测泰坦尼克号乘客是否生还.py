@@ -5,6 +5,8 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import classification_report
 
 '''
+博文：http://www.cnblogs.com/Lin-Yi/p/8970609.html
+
 决策树
 涉及多个特征，没有明显的线性关系
 推断逻辑非常直观

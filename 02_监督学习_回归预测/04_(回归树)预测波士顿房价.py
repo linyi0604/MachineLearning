@@ -5,6 +5,8 @@ from sklearn.tree import DecisionTreeRegressor
 from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
 import numpy as np
 
+# 博文：http://www.cnblogs.com/Lin-Yi/p/8972002.html
+
 '''
 回归树：
     严格上说 回归树不能算是回归

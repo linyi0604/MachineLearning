@@ -5,6 +5,8 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import classification_report
 
 '''
+博文：http://www.cnblogs.com/Lin-Yi/p/8970527.html
+
 k近邻分类器
 通过数据的分布对预测数据做出决策
 属于无参数估计的一种

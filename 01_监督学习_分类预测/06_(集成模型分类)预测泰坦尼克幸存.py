@@ -6,6 +6,8 @@ from sklearn.metrics import classification_report
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 
 '''
+博文：http://www.cnblogs.com/Lin-Yi/p/8971348.html
+
 集成分类器：
 综合考量多个分类器的预测结果做出考量。
 这种综合考量大体上分两种：

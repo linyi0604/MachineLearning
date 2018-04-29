@@ -1,5 +1,5 @@
-# 学习kaggle的道路上
-使用python3实现各种代码
+# 走在机器学习的道路上...
+使用python3学习各种机器学习算法api的使用
 
 依赖包在requirements.txt当中
 

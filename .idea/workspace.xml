@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5f64bb2-7501-4c2c-8f4a-a387b2fc6b5f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_(支持向量机分类器)手写数字识别.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_(朴素贝叶斯分类器)新闻分类.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_(k紧邻分类器)鸢尾花分类.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01肿瘤预测/01_良恶性肿瘤预测完整.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_(线性分类器)良恶性肿瘤预测.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01肿瘤预测/data/Index" beforeDir="false" afterPath="$PROJECT_DIR$/data/Index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01肿瘤预测/data/breast-cancer-wisconsin.data" beforeDir="false" afterPath="$PROJECT_DIR$/data/breast-cancer-wisconsin.data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01肿瘤预测/data/breast-cancer-wisconsin.names" beforeDir="false" afterPath="$PROJECT_DIR$/data/breast-cancer-wisconsin.names" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01肿瘤预测/data/unformatted-data" beforeDir="false" afterPath="$PROJECT_DIR$/data/unformatted-data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01肿瘤预测/data/wdbc.data" beforeDir="false" afterPath="$PROJECT_DIR$/data/wdbc.data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01肿瘤预测/data/wdbc.names" beforeDir="false" afterPath="$PROJECT_DIR$/data/wdbc.names" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01肿瘤预测/data/wpbc.data" beforeDir="false" afterPath="$PROJECT_DIR$/data/wpbc.data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01肿瘤预测/data/wpbc.names" beforeDir="false" afterPath="$PROJECT_DIR$/data/wpbc.names" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,14 +20,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="04_(k紧邻分类器)鸢尾花分类.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="04_(k紧邻分类器)鸢尾花分类.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04_(k紧邻分类器)鸢尾花分类.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            <state relative-caret-position="72">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="125">
+                <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -60,7 +59,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/01肿瘤预测/01_良恶性肿瘤预测完整.py" />
         <option value="$PROJECT_DIR$/01(线性回归)良恶性肿瘤预测/01_良恶性肿瘤预测完整.py" />
         <option value="$PROJECT_DIR$/02(支持向量机)手写数字识别/02 手写数字识别.py" />
@@ -70,6 +68,7 @@
         <option value="$PROJECT_DIR$/01_(线性分类器)良恶性肿瘤预测.py" />
         <option value="$PROJECT_DIR$/data/04_(k紧邻分类器)鸢尾花分类.py" />
         <option value="$PROJECT_DIR$/04_(k紧邻分类器)鸢尾花分类.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -267,8 +266,8 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.3297491" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3512545" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2311828" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3512545" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.29928315" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23362975" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
@@ -319,16 +318,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="100">
-            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../venvs/ml_py3/Lib/site-packages/sklearn/datasets/twenty_newsgroups.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4575">
@@ -366,13 +355,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/04_(k紧邻分类器)鸢尾花分类.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        <state relative-caret-position="72">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="125">
+            <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

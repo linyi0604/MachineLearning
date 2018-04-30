@@ -10,8 +10,10 @@ import numpy as np
 主成分分析：
     特征降低维度的方法。
     提取主要特征成分，有关联的特征进行运算组合
-    丢弃不显著的特征成分
+    丢弃不显著的特征成分， 同时可能损失有意义的精度特征
     实现降低特征维度
+    
+    
 api使用：
     estimator = PCA(n_components=20)
     pca_x_train = estimator.fit_transform(x_train)

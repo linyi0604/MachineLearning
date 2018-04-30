@@ -29,8 +29,8 @@ api使用：
 '''
 
 # 1 准备数据
-digits_train = pd.read_csv("./data/optdigits/optdigits.tra", header=None)
-digits_test = pd.read_csv("./data/optdigits/optdigits.tes", header=None)
+digits_train = pd.read_csv("../data/optdigits/optdigits.tra", header=None)
+digits_test = pd.read_csv("../data/optdigits/optdigits.tes", header=None)
 # 从样本中抽取出64维度像素特征和1维度目标
 x_train = digits_train[np.arange(64)]
 y_train = digits_train[64]

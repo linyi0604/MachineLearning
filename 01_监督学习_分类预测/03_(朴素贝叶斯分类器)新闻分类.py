@@ -8,7 +8,7 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import classification_report
 
 '''
-博文：http://www.cnblogs.com/Lin-Yi/p/8970522.html
+博文：http://www.cnblogs.com/Lin-Yi/p/8970522.htmlfda
 
 朴素贝叶斯模型广泛用于海量互联网文本分类任务。
 由于假设特征条件相互独立，预测需要估计的参数规模从幂指数量级下降接近线性量级，节约内存和计算时间

@@ -26,7 +26,7 @@ from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 1 准备数据
 '''
 # 读取泰坦尼克乘客数据，已经从互联网下载到本地
-titanic = pd.read_csv("./data/titanic/titanic.txt")
+titanic = pd.read_csv("../data/titanic/titanic.txt")
 # 观察数据发现有缺失现象
 # print(titanic.head())
 

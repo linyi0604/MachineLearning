@@ -3,17 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b5f64bb2-7501-4c2c-8f4a-a387b2fc6b5f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_监督学习_分类预测/01_(线性分类器)良恶性肿瘤预测.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_监督学习_分类预测/01_(线性分类器)良恶性肿瘤预测.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_监督学习_分类预测/02_(支持向量机分类器)手写数字识别.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_监督学习_分类预测/02_(支持向量机分类器)手写数字识别.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_监督学习_分类预测/03_(朴素贝叶斯分类器)新闻分类.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_监督学习_分类预测/03_(朴素贝叶斯分类器)新闻分类.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_监督学习_分类预测/04_(k紧邻分类器)鸢尾花分类.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_监督学习_分类预测/04_(k紧邻分类器)鸢尾花分类.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_监督学习_分类预测/05_(决策树分类)预测泰坦尼克号乘客是否生还.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_监督学习_分类预测/05_(决策树分类)预测泰坦尼克号乘客是否生还.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_监督学习_分类预测/06_(集成模型分类)预测泰坦尼克幸存.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_监督学习_分类预测/06_(集成模型分类)预测泰坦尼克幸存.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_监督学习_回归预测/01_(线性回归)预测波士顿房价.py" beforeDir="false" afterPath="$PROJECT_DIR$/02_监督学习_回归预测/01_(线性回归)预测波士顿房价.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_监督学习_回归预测/02_(支持向量机回归)预测波士顿房价.py" beforeDir="false" afterPath="$PROJECT_DIR$/02_监督学习_回归预测/02_(支持向量机回归)预测波士顿房价.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_监督学习_回归预测/03_(k近邻回归)预测波士顿房价.py" beforeDir="false" afterPath="$PROJECT_DIR$/02_监督学习_回归预测/03_(k近邻回归)预测波士顿房价.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_监督学习_回归预测/04_(回归树)预测波士顿房价.py" beforeDir="false" afterPath="$PROJECT_DIR$/02_监督学习_回归预测/04_(回归树)预测波士顿房价.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_监督学习_回归预测/05(集成模型回归)预测波士顿房价.py" beforeDir="false" afterPath="$PROJECT_DIR$/02_监督学习_回归预测/05(集成模型回归)预测波士顿房价.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,6 +17,7 @@
     <SUITE FILE_PATH="coverage/kaggle$04__k_.coverage" NAME="04_(k紧邻分类器)鸢尾花分类 Coverage Results" MODIFIED="1524966445216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
     <SUITE FILE_PATH="coverage/Machinelearning$05__.coverage" NAME="05(集成模型回归)预测波士顿房价 Coverage Results" MODIFIED="1525009157928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02回归预测" />
     <SUITE FILE_PATH="coverage/kaggle$03___.coverage" NAME="03_(朴素贝叶斯分类器)新闻分类 Coverage Results" MODIFIED="1524963480066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Machinelearning$01__k_.coverage" NAME="01_(k均值聚类)手写字体聚类 Coverage Results" MODIFIED="1525051899744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_无监督学习_数据据类" />
     <SUITE FILE_PATH="coverage/kaggle$01___.coverage" NAME="01_(线性分类器)良恶性肿瘤预测 Coverage Results" MODIFIED="1524968677872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Machinelearning$02___.coverage" NAME="02_(支持向量机回归)预测波士顿房价 Coverage Results" MODIFIED="1525005080011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02回归预测" />
     <SUITE FILE_PATH="coverage/Machinelearning$01___.coverage" NAME="01_(线性回归)预测波士顿房价 Coverage Results" MODIFIED="1525000076707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02回归预测" />
@@ -40,25 +31,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="04_(回归树)预测波士顿房价.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02_监督学习_回归预测/04_(回归树)预测波士顿房价.py">
+      <file leaf-file-name="01_(k均值聚类)手写字体聚类.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/03_无监督学习_数据据类/01_(k均值聚类)手写字体聚类.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+            <state relative-caret-position="125">
+              <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
               <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="05(集成模型回归)预测波士顿房价.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/02_监督学习_回归预测/05(集成模型回归)预测波士顿房价.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,6 +55,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>poly_svr</find>
+      <find>y_train</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -115,6 +95,8 @@
         <option value="$PROJECT_DIR$/02_监督学习_回归预测/03_(k近邻回归)预测波士顿房价.py" />
         <option value="$PROJECT_DIR$/02_监督学习_回归预测/04_(回归树)预测波士顿房价.py" />
         <option value="$PROJECT_DIR$/02_监督学习_回归预测/05(集成模型回归)预测波士顿房价.py" />
+        <option value="$PROJECT_DIR$/03_无监督学习_数据据类/01_(k-means聚类)手写字体聚类.py" />
+        <option value="$PROJECT_DIR$/03_无监督学习_数据据类/01_(k均值聚类)手写字体聚类.py" />
       </list>
     </option>
   </component>
@@ -128,10 +110,13 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="298" />
-    <option name="y" value="61" />
-    <option name="width" value="1245" />
+    <option name="x" value="376" />
+    <option name="y" value="78" />
+    <option name="width" value="1364" />
     <option name="height" value="852" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -149,7 +134,13 @@
             <path>
               <item name="Machinelearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="02_监督学习_回归预测" type="462c0819:PsiDirectoryNode" />
+              <item name="03_无监督学习_数据据类" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Machinelearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="03_无监督学习_数据据类" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -166,11 +157,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\WorkSpaces\PycharmProject\MachineLearning\03_无监督学习_数据据类\data\optdigits" />
       <recent name="C:\WorkSpaces\PycharmProject\MachineLearning\01分类预测" />
       <recent name="C:\WorkSpaces\PycharmProject\MachineLearning" />
       <recent name="C:\WorkSpaces\PycharmProject\kaggle\data\titanic" />
       <recent name="C:\WorkSpaces\PycharmProject\kaggle\data\01_肿瘤预测" />
-      <recent name="C:\WorkSpaces\PycharmProject\kaggle" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -185,8 +176,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.05(集成模型回归)预测波士顿房价">
-    <configuration name="01_(线性回归)预测波士顿房价" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.01_(k均值聚类)手写字体聚类">
+    <configuration name="01_(k均值聚类)手写字体聚类" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Machinelearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -194,12 +185,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02回归预测" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_无监督学习_数据据类" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02回归预测/01_(线性回归)预测波士顿房价.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_无监督学习_数据据类/01_(k均值聚类)手写字体聚类.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -282,19 +273,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.01_(线性回归)预测波士顿房价" />
       <item itemvalue="Python.02_(支持向量机回归)预测波士顿房价" />
       <item itemvalue="Python.03_(k近邻回归)预测波士顿房价" />
       <item itemvalue="Python.04_(回归树)预测波士顿房价" />
       <item itemvalue="Python.05(集成模型回归)预测波士顿房价" />
+      <item itemvalue="Python.01_(k均值聚类)手写字体聚类" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.01_(k均值聚类)手写字体聚类" />
         <item itemvalue="Python.05(集成模型回归)预测波士顿房价" />
         <item itemvalue="Python.04_(回归树)预测波士顿房价" />
         <item itemvalue="Python.03_(k近邻回归)预测波士顿房价" />
         <item itemvalue="Python.02_(支持向量机回归)预测波士顿房价" />
-        <item itemvalue="Python.01_(线性回归)预测波士顿房价" />
       </list>
     </recent_temporary>
   </component>
@@ -320,9 +311,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.3297491" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.390681" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2311828" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22069523" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31182796" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3548387" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22069523" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32983023" />
@@ -403,13 +394,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4575">
           <caret line="143" selection-start-line="143" selection-end-line="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -517,6 +501,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/02_监督学习_回归预测/05(集成模型回归)预测波士顿房价.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/02_监督学习_回归预测/04_(回归树)预测波士顿房价.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -527,12 +521,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02_监督学习_回归预测/05(集成模型回归)预测波士顿房价.py">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        <state relative-caret-position="275">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_无监督学习_数据据类/01_(k均值聚类)手写字体聚类.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>

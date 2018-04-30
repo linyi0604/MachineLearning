@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5f64bb2-7501-4c2c-8f4a-a387b2fc6b5f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/04_数据预处理方法/03_(特征提取_文本特征提取)文本转换成向量特征.py" beforeDir="false" afterPath="$PROJECT_DIR$/04_数据预处理方法/03_(特征提取_文本特征提取)文本转换成向量特征.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_数据预处理方法/01_(特征降维_主成分分析)预测手写字体.py" beforeDir="false" afterPath="$PROJECT_DIR$/04_数据预处理方法/01_(特征降维_主成分分析)预测手写字体.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,13 +34,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="03_(特征提取_文本特征提取)文本转换成向量特征.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="03_(特征提取_文本特征提取)文本转换成向量特征.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04_数据预处理方法/03_(特征提取_文本特征提取)文本转换成向量特征.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
               <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01_(特征降维_主成分分析)预测手写字体.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/04_数据预处理方法/01_(特征降维_主成分分析)预测手写字体.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,7 +74,7 @@
       <find>read</find>
       <find>data</find>
       <find>analyzer</find>
-      <find>stop words</find>
+      <find />
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -106,9 +118,9 @@
         <option value="$PROJECT_DIR$/01_监督学习_分类预测/05_(决策树分类)预测泰坦尼克号乘客是否生还.py" />
         <option value="$PROJECT_DIR$/01_监督学习_分类预测/06_(集成模型分类)预测泰坦尼克幸存.py" />
         <option value="$PROJECT_DIR$/03_无监督学习_数据据类/01_(k均值聚类)手写字体聚类.py" />
-        <option value="$PROJECT_DIR$/04_数据预处理方法/01_(特征降维_主成分分析)预测手写字体.py" />
         <option value="$PROJECT_DIR$/04_数据预处理方法/02_(特征抽取_字典特征提取)字典特征转换成向量.py" />
         <option value="$PROJECT_DIR$/04_数据预处理方法/03_(特征提取_文本特征提取)文本转换成向量特征.py" />
+        <option value="$PROJECT_DIR$/04_数据预处理方法/01_(特征降维_主成分分析)预测手写字体.py" />
       </list>
     </option>
   </component>
@@ -121,7 +133,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="376" />
     <option name="y" value="78" />
     <option name="width" value="1364" />
@@ -322,7 +334,7 @@
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3297491" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4641577" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.3548387" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22069523" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22069523" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32983023" />
@@ -572,16 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04_数据预处理方法/01_(特征降维_主成分分析)预测手写字体.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="45" column="17" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="45" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../venvs/ml_py3/Lib/site-packages/sklearn/feature_extraction/text.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -595,6 +597,16 @@
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_数据预处理方法/01_(特征降维_主成分分析)预测手写字体.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
           </folding>
         </state>
       </provider>

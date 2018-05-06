@@ -51,7 +51,7 @@ plt.ylabel("Price")
 plt.legend(handles=[plt1])
 plt.show()
 # 输出在样本上的预测评分
-print("一次线性模型预测得分：", regressor.score(x_train, y_train))     # 0.9100015964240102
+print("一次线性模型在预测集合上得分：", regressor.score(x_train, y_train))     # 0.9100015964240102
 
 
 # 2次线性回归进行预测
@@ -72,7 +72,7 @@ plt.ylabel("Price")
 plt.legend(handles=[plt1, plt2])
 plt.show()
 # 输出二次回归模型的预测样本评分
-print("二次线性模型预测得分:", regressor_poly2.score(x_train_poly2, y_train))     # 0.9816421639597427
+print("二次线性模型在预测集合上得分:", regressor_poly2.score(x_train_poly2, y_train))     # 0.9816421639597427
 
 
 # 进行四次线性回归模型拟合
@@ -94,4 +94,14 @@ plt.ylabel("Price")
 plt.legend(handles=[plt1, plt2, plt4])
 plt.show()
 # 输出二次回归模型的预测样本评分
-print("四次线性模型预测得分:", regressor_poly4.score(x_train_poly4, y_train))     # 1.0
+print("四次线性模型在预测集合上得分:", regressor_poly4.score(x_train_poly4, y_train))     # 1.0
+
+
+# 准备测试数据
+x_test = [[6], [8], [11], [16]]
+y_test = [[8], [12], [15], [18]]
+print("一次线性模型在测试集合上得分:", regressor.score(x_test, y_test))   # 0.809726797707665
+x_test_poly2 = poly2.transform(x_test)
+print("二次线性模型在测试集合上得分:", regressor_poly2.score(x_test_poly2, y_test))   # 0.8675443656345054
+x_test_poly4 = poly4.transform(x_test)
+print("四次线性模型在测试集合上得分:", regressor_poly4.score(x_test_poly4, y_test))   # 0.8095880795746723

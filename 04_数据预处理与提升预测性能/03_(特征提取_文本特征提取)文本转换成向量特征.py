@@ -63,7 +63,6 @@ tfid_stop_vec = TfidfVectorizer(analyzer='word', stop_words='english')
 x_tfid_stop_train = tfid_stop_vec.fit_transform(x_train)
 x_tfid_stop_test = tfid_stop_vec.transform(x_test)
 
-
 # 4 使用朴素贝叶斯分类器  分别对两种提取出来的特征值进行学习和预测
 # 对普通通统计CountVectorizer提取特征向量 学习和预测
 mnb_count = MultinomialNB()

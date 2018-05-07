@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5f64bb2-7501-4c2c-8f4a-a387b2fc6b5f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/04_数据预处理与提升预测性能/03_(特征提取_文本特征提取)文本转换成向量特征.py" beforeDir="false" afterPath="$PROJECT_DIR$/04_数据预处理与提升预测性能/03_(特征提取_文本特征提取)文本转换成向量特征.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,6 +14,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Machinelearning$05______1_.coverage" NAME="05_(生成多项式特征)线性回归预测 欠拟合与过拟合 (1) Coverage Results" MODIFIED="1525605484987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_数据预处理与提升泛化能力" />
+    <SUITE FILE_PATH="coverage/Machinelearning$01_nltk.coverage" NAME="01_nltk自然语言处理包 Coverage Results" MODIFIED="1525681502786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_流行库、模型实践" />
     <SUITE FILE_PATH="coverage/Machinelearning$04___.coverage" NAME="04_(回归树)预测波士顿房价 Coverage Results" MODIFIED="1525008150131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02回归预测" />
     <SUITE FILE_PATH="coverage/kaggle$01___1_.coverage" NAME="01_良恶性肿瘤预测完整 (1) Coverage Results" MODIFIED="1524959880849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01(线性回归)良恶性肿瘤预测" />
     <SUITE FILE_PATH="coverage/Machinelearning$06___.coverage" NAME="06_(范数正则化)削弱过拟合 Coverage Results" MODIFIED="1525608542228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_数据预处理与提升泛化能力" />
@@ -42,7 +44,20 @@
     <favorites_list name="Machinelearning" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="01_nltk自然语言处理包.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/05_流行库、模型实践/01_nltk自然语言处理包.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#0#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -117,6 +132,7 @@
         <option value="$PROJECT_DIR$/04_数据预处理与提升预测性能/08_(模型检验_并行搜索)寻找最有参数.py" />
         <option value="$PROJECT_DIR$/04_数据预处理与提升预测性能/07_(模型检验_网格搜索、并行搜索)寻找最优参数.py" />
         <option value="$PROJECT_DIR$/04_数据预处理与提升预测性能/03_(特征提取_文本特征提取)文本转换成向量特征.py" />
+        <option value="$PROJECT_DIR$/05_流行库、模型实践/01_nltk自然语言处理包.py" />
       </list>
     </option>
   </component>
@@ -143,7 +159,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,15 +166,11 @@
               <item name="Machinelearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Machinelearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="04_数据预处理与提升预测性能" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -193,7 +204,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.07_(模型检验_网格搜索、并行搜索)寻找最优参数">
+  <component name="RunManager" selected="Python.01_nltk自然语言处理包">
+    <configuration name="01_nltk自然语言处理包" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Machinelearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/05_流行库、模型实践" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05_流行库、模型实践/01_nltk自然语言处理包.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="03_(特征提取_文本特征提取)文本转换成向量特征" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Machinelearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -208,25 +238,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_数据预处理方法/03_(特征提取_文本特征提取)文本转换成向量特征.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="05_(生成多项式特征)线性回归预测 欠拟合与过拟合 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Machinelearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04_数据预处理与提升泛化能力" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_数据预处理与提升泛化能力/05_(生成多项式特征)线性回归预测 欠拟合与过拟合.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -310,18 +321,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.06_(范数正则化)削弱过拟合" />
-      <item itemvalue="Python.05_(生成多项式特征)线性回归预测 欠拟合与过拟合 (1)" />
       <item itemvalue="Python.07_(网格搜索)寻找最优参数" />
       <item itemvalue="Python.08_(模型检验_并行搜索)寻找最有参数" />
       <item itemvalue="Python.07_(模型检验_网格搜索、并行搜索)寻找最优参数" />
+      <item itemvalue="Python.01_nltk自然语言处理包" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.01_nltk自然语言处理包" />
         <item itemvalue="Python.07_(模型检验_网格搜索、并行搜索)寻找最优参数" />
         <item itemvalue="Python.08_(模型检验_并行搜索)寻找最有参数" />
         <item itemvalue="Python.07_(网格搜索)寻找最优参数" />
         <item itemvalue="Python.06_(范数正则化)削弱过拟合" />
-        <item itemvalue="Python.05_(生成多项式特征)线性回归预测 欠拟合与过拟合 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -355,9 +366,9 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3297491" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.68458784" />
-      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.3548387" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49722221" visible="true" weight="0.24090542" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44802868" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.3530466" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49722221" visible="true" weight="0.2489895" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" weight="0.23605497" />
@@ -380,13 +391,30 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/05_流行库、模型实践/01_nltk自然语言处理包.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_流行库、模型实践/01_nltk自然语言处理包.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/04_数据预处理与提升预测性能/07_(模型检验_网格搜索、并行搜索)寻找最优参数.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -509,13 +537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -643,23 +664,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04_数据预处理与提升预测性能/08_(模型检验_并行搜索)寻找最有参数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/04_数据预处理与提升预测性能/08_(模型检验_并行搜索)寻找最有参数.py" />
     <entry file="file://$PROJECT_DIR$/04_数据预处理与提升预测性能/07_(模型检验_网格搜索、并行搜索)寻找最优参数.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
           <caret line="26" selection-end-line="148" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -667,6 +676,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="63" column="50" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-465">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_流行库、模型实践/01_nltk自然语言处理包.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

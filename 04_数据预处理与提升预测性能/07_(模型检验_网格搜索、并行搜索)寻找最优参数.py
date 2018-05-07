@@ -23,6 +23,11 @@ k折交叉验证：
     对模型参数列举出集中可能，
     对所有列举出的可能组合进行模型评估
     从而找到最好的模型参数
+    
+并行搜索：
+    由于每一种参数组合互相是独立不影响的
+    所有可以开启多线程进行网格搜索
+    这种方式为并行搜索
 
 '''
 
@@ -44,6 +49,10 @@ parameters = {"svc__gamma": np.logspace(-2, 1, 4), "svc__C": np.logspace(-1, 1, 
 # 网格搜索
 # 创建一个网格搜索: 12组参数组合， 3折交叉验证
 gs = GridSearchCV(clf, parameters, verbose=2, refit=True, cv=3)
+# 设置n_jobs=-1 表示占用所有cpu开线程   5表示开启5个同步任务
+# windows下不支持fork开启线程 所有 linux unix mac 可以用该api
+# gs = GridSearchCV(clf, parameters, verbose=2, refit=True, cv=3, n_jobs=-1)
+
 
 # 执行单线程网格搜索
 time_ = gs.fit(x_train, y_train)
@@ -136,3 +145,4 @@ Fitting 3 folds for each of 12 candidates, totalling 36 fits
 0.8226666666666667
 
 '''
+

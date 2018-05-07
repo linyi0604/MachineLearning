@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b5f64bb2-7501-4c2c-8f4a-a387b2fc6b5f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_数据预处理与提升泛化能力/01_(特征降维_特征筛选)预测泰坦尼克号幸存.py" beforeDir="false" afterPath="$PROJECT_DIR$/04_数据预处理与提升预测性能/01_(特征降维_特征筛选)预测泰坦尼克号幸存.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_数据预处理与提升泛化能力/02_(特征降维_主成分分析)预测手写字体.py" beforeDir="false" afterPath="$PROJECT_DIR$/04_数据预处理与提升预测性能/02_(特征降维_主成分分析)预测手写字体.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_数据预处理与提升泛化能力/03_(特征提取_文本特征提取)文本转换成向量特征.py" beforeDir="false" afterPath="$PROJECT_DIR$/04_数据预处理与提升预测性能/03_(特征提取_文本特征提取)文本转换成向量特征.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_数据预处理与提升泛化能力/04_(特征提取_字典特征提取)字典特征转换成向量.py" beforeDir="false" afterPath="$PROJECT_DIR$/04_数据预处理与提升预测性能/04_(特征提取_字典特征提取)字典特征转换成向量.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_数据预处理与提升泛化能力/05_(生成多项式特征)线性回归预测 欠拟合与过拟合.py" beforeDir="false" afterPath="$PROJECT_DIR$/04_数据预处理与提升预测性能/05_(生成多项式特征)线性回归预测 欠拟合与过拟合.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_数据预处理与提升泛化能力/06_(范数正则化)削弱过拟合.py" beforeDir="false" afterPath="$PROJECT_DIR$/04_数据预处理与提升预测性能/06_(范数正则化)削弱过拟合.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_数据预处理与提升预测性能/07_(模型检验_网格搜索)寻找最优参数.py" beforeDir="false" afterPath="$PROJECT_DIR$/04_数据预处理与提升预测性能/07_(模型检验_网格搜索、并行搜索)寻找最优参数.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,37 +13,39 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Machinelearning$05______1_.coverage" NAME="05_(生成多项式特征)线性回归预测 欠拟合与过拟合 (1) Coverage Results" MODIFIED="1525605484987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_数据预处理与提升泛化能力" />
+    <SUITE FILE_PATH="coverage/Machinelearning$04___.coverage" NAME="04_(回归树)预测波士顿房价 Coverage Results" MODIFIED="1525008150131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02回归预测" />
+    <SUITE FILE_PATH="coverage/kaggle$01___1_.coverage" NAME="01_良恶性肿瘤预测完整 (1) Coverage Results" MODIFIED="1524959880849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01(线性回归)良恶性肿瘤预测" />
+    <SUITE FILE_PATH="coverage/Machinelearning$06___.coverage" NAME="06_(范数正则化)削弱过拟合 Coverage Results" MODIFIED="1525608542228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_数据预处理与提升泛化能力" />
+    <SUITE FILE_PATH="coverage/Machinelearning$05___.coverage" NAME="05_(多项式特征)线性回归预测 Coverage Results" MODIFIED="1525136819114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_数据预处理方法" />
+    <SUITE FILE_PATH="coverage/Machinelearning$07___.coverage" NAME="07_(网格搜索)寻找最优参数 Coverage Results" MODIFIED="1525654348758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_数据预处理与提升预测性能" />
+    <SUITE FILE_PATH="coverage/Machinelearning$05_____1_.coverage" NAME="05_(决策树分类)预测泰坦尼克号乘客是否生还 (1) Coverage Results" MODIFIED="1524996479480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01分类预测" />
+    <SUITE FILE_PATH="coverage/Machinelearning$08____.coverage" NAME="08_(模型检验_并行搜索)寻找最有参数 Coverage Results" MODIFIED="1525657350539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_数据预处理与提升预测性能" />
     <SUITE FILE_PATH="coverage/kaggle$02_.coverage" NAME="02 手写数字识别 Coverage Results" MODIFIED="1524961460564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02(支持向量机)手写数字识别" />
     <SUITE FILE_PATH="coverage/kaggle$04__k_.coverage" NAME="04_(k紧邻分类器)鸢尾花分类 Coverage Results" MODIFIED="1524966445216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
+    <SUITE FILE_PATH="coverage/Machinelearning$07____.coverage" NAME="07_(模型检验_网格搜索、并行搜索)寻找最优参数 Coverage Results" MODIFIED="1525657850531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_数据预处理与提升预测性能" />
     <SUITE FILE_PATH="coverage/Machinelearning$05__.coverage" NAME="05(集成模型回归)预测波士顿房价 Coverage Results" MODIFIED="1525009157928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02回归预测" />
     <SUITE FILE_PATH="coverage/kaggle$03___.coverage" NAME="03_(朴素贝叶斯分类器)新闻分类 Coverage Results" MODIFIED="1524963480066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Machinelearning$01__k_.coverage" NAME="01_(k均值聚类)手写字体聚类 Coverage Results" MODIFIED="1525058595900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_无监督学习_数据据类" />
     <SUITE FILE_PATH="coverage/kaggle$01___.coverage" NAME="01_(线性分类器)良恶性肿瘤预测 Coverage Results" MODIFIED="1524968677872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Machinelearning$05______1_.coverage" NAME="05_(生成多项式特征)线性回归预测 欠拟合与过拟合 (1) Coverage Results" MODIFIED="1525605484987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_数据预处理与提升泛化能力" />
     <SUITE FILE_PATH="coverage/Machinelearning$02___.coverage" NAME="02_(支持向量机回归)预测波士顿房价 Coverage Results" MODIFIED="1525005080011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02回归预测" />
     <SUITE FILE_PATH="coverage/Machinelearning$01___.coverage" NAME="01_(线性分类器)良恶性肿瘤预测 Coverage Results" MODIFIED="1525058506564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01_监督学习_分类预测" />
     <SUITE FILE_PATH="coverage/Machinelearning$03__k_.coverage" NAME="03_(k近邻回归)预测波士顿房价 Coverage Results" MODIFIED="1525007116678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02回归预测" />
-    <SUITE FILE_PATH="coverage/Machinelearning$04___.coverage" NAME="04_(回归树)预测波士顿房价 Coverage Results" MODIFIED="1525008150131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02回归预测" />
-    <SUITE FILE_PATH="coverage/kaggle$01___1_.coverage" NAME="01_良恶性肿瘤预测完整 (1) Coverage Results" MODIFIED="1524959880849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01(线性回归)良恶性肿瘤预测" />
     <SUITE FILE_PATH="coverage/Machinelearning$01____.coverage" NAME="01_(特征降维_特征筛选)预测泰坦尼克号幸存 Coverage Results" MODIFIED="1525088665163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_数据预处理方法" />
     <SUITE FILE_PATH="coverage/Machinelearning$03____.coverage" NAME="03_(特征提取_文本特征提取)文本转换成向量特征 Coverage Results" MODIFIED="1525080445687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_数据预处理方法" />
-    <SUITE FILE_PATH="coverage/Machinelearning$06___.coverage" NAME="06_(范数正则化)削弱过拟合 Coverage Results" MODIFIED="1525608542228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_数据预处理与提升泛化能力" />
     <SUITE FILE_PATH="coverage/kaggle$01_.coverage" NAME="01_良恶性肿瘤预测完整 Coverage Results" MODIFIED="1524929298990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01肿瘤预测" />
     <SUITE FILE_PATH="coverage/Machinelearning$02____.coverage" NAME="02_(特征抽取_字典特征提取)字典特征转换成向量 Coverage Results" MODIFIED="1525058936547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_数据预处理方法" />
-    <SUITE FILE_PATH="coverage/Machinelearning$05___.coverage" NAME="05_(多项式特征)线性回归预测 Coverage Results" MODIFIED="1525136819114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_数据预处理方法" />
-    <SUITE FILE_PATH="coverage/Machinelearning$07___.coverage" NAME="07_(网格搜索)寻找最优参数 Coverage Results" MODIFIED="1525654348758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_数据预处理与提升预测性能" />
     <SUITE FILE_PATH="coverage/Machinelearning$05____.coverage" NAME="05_(生成多项式特征)线性回归预测 欠拟合与过拟合 Coverage Results" MODIFIED="1525138363953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_数据预处理方法" />
-    <SUITE FILE_PATH="coverage/Machinelearning$05_____1_.coverage" NAME="05_(决策树分类)预测泰坦尼克号乘客是否生还 (1) Coverage Results" MODIFIED="1524996479480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01分类预测" />
     <SUITE FILE_PATH="coverage/Machinelearning$04____.coverage" NAME="04_(特征降维_特征筛选)预测泰坦尼克号幸存 Coverage Results" MODIFIED="1525086193859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_数据预处理方法" />
     <SUITE FILE_PATH="coverage/kaggle$05___.coverage" NAME="05_(决策树分类)预测泰坦尼克号乘客是否生还 Coverage Results" MODIFIED="1524970423293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="07_(模型检验_网格搜索)寻找最优参数.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/04_数据预处理与提升预测性能/07_(模型检验_网格搜索)寻找最优参数.py">
+      <file leaf-file-name="07_(模型检验_网格搜索、并行搜索)寻找最优参数.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/04_数据预处理与提升预测性能/07_(模型检验_网格搜索、并行搜索)寻找最优参数.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+            <state relative-caret-position="244">
+              <caret line="52" column="47" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
               <folding>
                 <element signature="e#0#47#0" expanded="true" />
               </folding>
@@ -128,6 +125,8 @@
         <option value="$PROJECT_DIR$/04_数据预处理与提升泛化能力/06_(范数正则化)削弱过拟合.py" />
         <option value="$PROJECT_DIR$/04_数据预处理与提升预测性能/07_(网格搜索)寻找最优参数.py" />
         <option value="$PROJECT_DIR$/04_数据预处理与提升预测性能/07_(模型检验_网格搜索)寻找最优参数.py" />
+        <option value="$PROJECT_DIR$/04_数据预处理与提升预测性能/08_(模型检验_并行搜索)寻找最有参数.py" />
+        <option value="$PROJECT_DIR$/04_数据预处理与提升预测性能/07_(模型检验_网格搜索、并行搜索)寻找最优参数.py" />
       </list>
     </option>
   </component>
@@ -204,7 +203,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.07_(网格搜索)寻找最优参数">
+  <component name="RunManager" selected="Python.07_(模型检验_网格搜索、并行搜索)寻找最优参数">
     <configuration name="03_(特征提取_文本特征提取)文本转换成向量特征" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Machinelearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -243,44 +242,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="05_(生成多项式特征)线性回归预测 欠拟合与过拟合" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Machinelearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04_数据预处理方法" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_数据预处理方法/05_(生成多项式特征)线性回归预测 欠拟合与过拟合.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="05_(多项式特征)线性回归预测" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Machinelearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04_数据预处理方法" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\WorkSpaces\PycharmProject\MachineLearning\04_数据预处理方法\05_(生成多项式特征)线性回归预测 欠拟合与过拟合.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="06_(范数正则化)削弱过拟合" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Machinelearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -313,26 +274,64 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\WorkSpaces\PycharmProject\MachineLearning\04_数据预处理与提升预测性能\07_(模型检验_网格搜索)寻找最优参数.py" />
+      <option name="SCRIPT_NAME" value="C:\WorkSpaces\PycharmProject\MachineLearning\04_数据预处理与提升预测性能\07_(模型检验_网格搜索、并行搜索)寻找最优参数.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="07_(模型检验_网格搜索、并行搜索)寻找最优参数" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Machinelearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04_数据预处理与提升预测性能" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_数据预处理与提升预测性能/07_(模型检验_网格搜索、并行搜索)寻找最优参数.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="08_(模型检验_并行搜索)寻找最有参数" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Machinelearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04_数据预处理与提升预测性能" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_数据预处理与提升预测性能/08_(模型检验_并行搜索)寻找最有参数.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.05_(多项式特征)线性回归预测" />
-      <item itemvalue="Python.05_(生成多项式特征)线性回归预测 欠拟合与过拟合" />
       <item itemvalue="Python.06_(范数正则化)削弱过拟合" />
       <item itemvalue="Python.05_(生成多项式特征)线性回归预测 欠拟合与过拟合 (1)" />
       <item itemvalue="Python.07_(网格搜索)寻找最优参数" />
+      <item itemvalue="Python.08_(模型检验_并行搜索)寻找最有参数" />
+      <item itemvalue="Python.07_(模型检验_网格搜索、并行搜索)寻找最优参数" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.07_(模型检验_网格搜索、并行搜索)寻找最优参数" />
+        <item itemvalue="Python.08_(模型检验_并行搜索)寻找最有参数" />
         <item itemvalue="Python.07_(网格搜索)寻找最优参数" />
         <item itemvalue="Python.06_(范数正则化)削弱过拟合" />
         <item itemvalue="Python.05_(生成多项式特征)线性回归预测 欠拟合与过拟合 (1)" />
-        <item itemvalue="Python.05_(生成多项式特征)线性回归预测 欠拟合与过拟合" />
-        <item itemvalue="Python.05_(多项式特征)线性回归预测" />
       </list>
     </recent_temporary>
   </component>
@@ -359,7 +358,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -367,9 +366,9 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3297491" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41935483" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.68458784" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.3548387" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2603072" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2603072" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" weight="0.23605497" />
@@ -392,7 +391,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/04_数据预处理与提升预测性能/07_(模型检验_网格搜索)寻找最优参数.py">
+    <entry file="file://$PROJECT_DIR$/04_数据预处理与提升预测性能/07_(模型检验_网格搜索、并行搜索)寻找最优参数.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
@@ -662,10 +661,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04_数据预处理与提升预测性能/07_(模型检验_网格搜索)寻找最优参数.py">
+    <entry file="file://$PROJECT_DIR$/04_数据预处理与提升预测性能/08_(模型检验_并行搜索)寻找最有参数.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+        <state relative-caret-position="336">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_数据预处理与提升预测性能/07_(模型检验_网格搜索、并行搜索)寻找最优参数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="52" column="47" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
           <folding>
             <element signature="e#0#47#0" expanded="true" />
           </folding>

@@ -5,8 +5,8 @@ from xgboost import XGBClassifier
 from sklearn.cross_validation import cross_val_score
 from sklearn.grid_search import GridSearchCV
 
-train = pd.read_csv("train.csv")
-test = pd.read_csv("test.csv")
+train = pd.read_csv("./data/train.csv")
+test = pd.read_csv("./data/test.csv")
 
 selected_features = ["Pclass", "Sex", "Age", "SibSp", "Embarked", "Parch", "Fare"]
 x_train = train[selected_features]
@@ -38,7 +38,7 @@ rfc_submission = pd.DataFrame({
     "Survived": rfc_y_predict
 })
 # 预测结果保存
-rfc_submission.to_csv("./rfc_submission.csv", index=False)
+rfc_submission.to_csv("./predict/rfc_submission.csv", index=False)
 
 
 # 使用xgbc进行预测
@@ -49,7 +49,7 @@ xgbc_submission = pd.DataFrame({
     "PassengerId": test["PassengerId"],
     "Survived": xgbc_y_predict
 })
-xgbc_submission.to_csv("./xgbc_submission.csv", index=False)
+xgbc_submission.to_csv("./predict/xgbc_submission.csv", index=False)
 
 # 使用并行搜索 寻找更好的超参数组合
 params = {
@@ -69,7 +69,7 @@ xgbc_best_submission = pd.DataFrame({
     "PassengerId": test["PassengerId"],
     "Survived": xgbc_best_y_predict
 })
-xgbc_best_submission.to_csv("./xgbc_best_submission.csv", index=False)
+xgbc_best_submission.to_csv("./predict/xgbc_best_submission.csv", index=False)
 
 
 xgbc_best2 = XGBClassifier()
@@ -87,7 +87,7 @@ xgbc2_submission = pd.DataFrame({
     "PassengerId": test["PassengerId"],
     "Survived": xgbc2_y_predict
 })
-xgbc2_submission.to_csv("./xgbc2_submission.csv", index=False)
+xgbc2_submission.to_csv("./predict/xgbc2_submission.csv", index=False)
 
 
 gs = GridSearchCV(xgbc_best2, params, n_jobs=-1, cv=5, verbose=1)
@@ -103,5 +103,5 @@ xgbc_best2_submission = pd.DataFrame({
     "PassengerId": test["PassengerId"],
     "Survived": xgbc_best2_y_predict
 })
-xgbc_best2_submission.to_csv("./xgbc_best2_submission.csv", index=False)
+xgbc_best2_submission.to_csv("./predict/xgbc_best2_submission.csv", index=False)
 

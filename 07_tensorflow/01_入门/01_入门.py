@@ -79,7 +79,29 @@ with tf.Session() as sess:
         print(result.eval())    # [3. 5.]
 
 
-
-
+'''
+变量
+tf.Variable
+作用是保存和更新神经网络中的参数
+经常用随机数来初始化变量
+常用的随机数生成器:
+    tf.random_normal 正太分布
+    tf.truncated_normal 正太分布 如果平均值超过两个标准差就重新随机
+    tf.random_uniform 均匀分布
+    tf.random_gamma Gamma分布
+    tf.zeros 产生全0数组
+    tf.ones 产生全1数组
+    tf.fill 给定数字数组
+    tf.constant 定量值
+'''
+# 声明一个变量 随机生成 2*3的矩阵 满足正太分布 均值为0 标准差为2
+weights = tf.Variable(tf.random_normal(shape=[2,3], stddev=2, mean=0))
+# 生成三个零的数组变量
+bias = tf.Variable(tf.zeros(shape=[3]))
+# 也支持用其他变量初始化的形式声明变量
+# 与weight相同
+w2 = tf.Variable(weights.initialized_value())
+# 是weight的两倍
+w3 = tf.Variable(weights.initialized_value()*2)
 
 

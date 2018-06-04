@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5f64bb2-7501-4c2c-8f4a-a387b2fc6b5f" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/07_tensorflow/01_入门.py" afterPath="$PROJECT_DIR$/07_tensorflow/01_入门/01_入门.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,9 +25,10 @@
     <SUITE FILE_PATH="coverage/Machinelearning$03____.coverage" NAME="03_(特征提取_文本特征提取)文本转换成向量特征 Coverage Results" MODIFIED="1525080445687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_数据预处理方法" />
     <SUITE FILE_PATH="coverage/kaggle$01___1_.coverage" NAME="01_良恶性肿瘤预测完整 (1) Coverage Results" MODIFIED="1524959880849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01(线性回归)良恶性肿瘤预测" />
     <SUITE FILE_PATH="coverage/kaggle$01_.coverage" NAME="01_良恶性肿瘤预测完整 Coverage Results" MODIFIED="1524929298990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01肿瘤预测" />
+    <SUITE FILE_PATH="coverage/Machinelearning$04_.coverage" NAME="04_完整的神经网络 Coverage Results" MODIFIED="1528077914620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_tensorflow/01_入门" />
     <SUITE FILE_PATH="coverage/Machinelearning$03_XGBoost.coverage" NAME="03_XGBoost模型 Coverage Results" MODIFIED="1525769442705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_流行库、模型实践" />
     <SUITE FILE_PATH="coverage/Machinelearning$model__1_.coverage" NAME="model (1) Coverage Results" MODIFIED="1525942114797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_kaggle_competition/02_IMDB电影评分" />
-    <SUITE FILE_PATH="coverage/Machinelearning$01_.coverage" NAME="01_入门 Coverage Results" MODIFIED="1527994885219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_tensorflow" />
+    <SUITE FILE_PATH="coverage/Machinelearning$01_.coverage" NAME="01_入门 Coverage Results" MODIFIED="1528014738935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_tensorflow" />
     <SUITE FILE_PATH="coverage/Machinelearning$05__.coverage" NAME="05(集成模型回归)预测波士顿房价 Coverage Results" MODIFIED="1525009157928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02回归预测" />
     <SUITE FILE_PATH="coverage/kaggle$03___.coverage" NAME="03_(朴素贝叶斯分类器)新闻分类 Coverage Results" MODIFIED="1524963480066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Machinelearning$06___.coverage" NAME="06_(范数正则化)削弱过拟合 Coverage Results" MODIFIED="1525608542228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_数据预处理与提升泛化能力" />
@@ -36,6 +38,7 @@
     <SUITE FILE_PATH="coverage/kaggle$05___.coverage" NAME="05_(决策树分类)预测泰坦尼克号乘客是否生还 Coverage Results" MODIFIED="1524970423293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Machinelearning$01_nltk.coverage" NAME="01_nltk自然语言处理包 Coverage Results" MODIFIED="1525745047236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05_流行库、模型实践" />
     <SUITE FILE_PATH="coverage/kaggle$02_.coverage" NAME="02 手写数字识别 Coverage Results" MODIFIED="1524961460564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02(支持向量机)手写数字识别" />
+    <SUITE FILE_PATH="coverage/Machinelearning$03_.coverage" NAME="03_实现前向传播 Coverage Results" MODIFIED="1528074808394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_tensorflow/01_入门" />
     <SUITE FILE_PATH="coverage/Machinelearning$model__2_.coverage" NAME="model (2) Coverage Results" MODIFIED="1526009062445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_kaggle_competition/03_MNIST手写字体识别" />
     <SUITE FILE_PATH="coverage/Machinelearning$03__k_.coverage" NAME="03_(k近邻回归)预测波士顿房价 Coverage Results" MODIFIED="1525007116678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02回归预测" />
     <SUITE FILE_PATH="coverage/Machinelearning$01__k_.coverage" NAME="01_(k均值聚类)手写字体聚类 Coverage Results" MODIFIED="1525058595900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_无监督学习_数据据类" />
@@ -44,6 +47,7 @@
     <SUITE FILE_PATH="coverage/Machinelearning$model.coverage" NAME="model Coverage Results" MODIFIED="1525834671688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06_kaggle_competition/01_Titanic" />
     <SUITE FILE_PATH="coverage/Machinelearning$08____.coverage" NAME="08_(模型检验_并行搜索)寻找最有参数 Coverage Results" MODIFIED="1525657350539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_数据预处理与提升预测性能" />
     <SUITE FILE_PATH="coverage/Machinelearning$07____.coverage" NAME="07_(模型检验_网格搜索、并行搜索)寻找最优参数 Coverage Results" MODIFIED="1525684190851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_数据预处理与提升预测性能" />
+    <SUITE FILE_PATH="coverage/Machinelearning$02_.coverage" NAME="02_模拟一个前向传播 Coverage Results" MODIFIED="1528015474373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07_tensorflow" />
     <SUITE FILE_PATH="coverage/Machinelearning$05_____1_.coverage" NAME="05_(决策树分类)预测泰坦尼克号乘客是否生还 (1) Coverage Results" MODIFIED="1524996479480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01分类预测" />
     <SUITE FILE_PATH="coverage/Machinelearning$05____.coverage" NAME="05_(生成多项式特征)线性回归预测 欠拟合与过拟合 Coverage Results" MODIFIED="1525138363953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04_数据预处理方法" />
   </component>
@@ -52,12 +56,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="01_入门.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/07_tensorflow/01_入门.py">
+      <file leaf-file-name="04_完整的神经网络.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/07_tensorflow/01_入门/04_完整的神经网络.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="229">
+              <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,10 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/05_(决策树分类)预测泰坦尼克号乘客是否生还.py" />
-        <option value="$PROJECT_DIR$/01分类预测/05_(决策树分类)预测泰坦尼克号乘客是否生还.py" />
-        <option value="$PROJECT_DIR$/01分类预测/02_(支持向量机分类器)手写数字识别.py" />
-        <option value="$PROJECT_DIR$/02回归预测/01_(线性回归)预测波士顿房价.py" />
         <option value="$PROJECT_DIR$/02回归预测/02_(支持向量机回归)预测波士顿房价.py" />
         <option value="$PROJECT_DIR$/02回归预测/03_(k)预测波士顿房价.py" />
         <option value="$PROJECT_DIR$/01分类预测/01_(线性分类器)良恶性肿瘤预测.py" />
@@ -139,6 +141,10 @@
         <option value="$PROJECT_DIR$/06_kaggle_competition/01_Titanic/model2.py" />
         <option value="$PROJECT_DIR$/06_kaggle_competition/01_Titanic/model_tensorflow.py" />
         <option value="$PROJECT_DIR$/07_tensorflow/01_入门.py" />
+        <option value="$PROJECT_DIR$/07_tensorflow/02_模拟一个前向传播.py" />
+        <option value="$PROJECT_DIR$/07_tensorflow/01_入门/02_模拟一个前向传播.py" />
+        <option value="$PROJECT_DIR$/07_tensorflow/01_入门/03_实现前向传播.py" />
+        <option value="$PROJECT_DIR$/07_tensorflow/01_入门/04_完整的神经网络.py" />
       </list>
     </option>
   </component>
@@ -183,6 +189,17 @@
               <item name="Machinelearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Machinelearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="07_tensorflow" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Machinelearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="07_tensorflow" type="462c0819:PsiDirectoryNode" />
+              <item name="01_入门" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -199,18 +216,18 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/07_tensorflow/01_入门" />
+      <recent name="$PROJECT_DIR$/06_kaggle_competition/02_IMDB电影评分/data" />
+      <recent name="$PROJECT_DIR$/06_kaggle_competition/01_Titanic/predict" />
+      <recent name="$PROJECT_DIR$/06_kaggle_competition/01_Titanic/data" />
+      <recent name="C:\WorkSpaces\PycharmProject\MachineLearning\data" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/06_kaggle_competition/03_MNIST手写字体识别/data" />
       <recent name="$PROJECT_DIR$/06_kaggle_competition/02_IMDB电影评分" />
       <recent name="$PROJECT_DIR$/06_kaggle_competition/01_Titanic" />
       <recent name="C:\WorkSpaces\PycharmProject\MachineLearning\04_数据预处理方法" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/06_kaggle_competition/02_IMDB电影评分/data" />
-      <recent name="$PROJECT_DIR$/06_kaggle_competition/01_Titanic/predict" />
-      <recent name="$PROJECT_DIR$/06_kaggle_competition/01_Titanic/data" />
-      <recent name="C:\WorkSpaces\PycharmProject\MachineLearning\data" />
-      <recent name="C:\WorkSpaces\PycharmProject\MachineLearning" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -225,7 +242,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.01_入门">
+  <component name="RunManager" selected="Python.04_完整的神经网络">
     <configuration name="01_入门" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -239,7 +256,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Machinelearning" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07_tensorflow/01_入门.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07_tensorflow/01_入门/01_入门.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="02_模拟一个前向传播" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/07_tensorflow" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Machinelearning" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07_tensorflow/01_入门/02_模拟一个前向传播.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -262,56 +297,38 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="model (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="03_实现前向传播" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06_kaggle_competition/02_IMDB电影评分" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/07_tensorflow/01_入门" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Machinelearning" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_kaggle_competition/02_IMDB电影评分/model.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07_tensorflow/01_入门/03_实现前向传播.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="model (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="04_完整的神经网络" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06_kaggle_competition/03_MNIST手写字体识别" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/07_tensorflow/01_入门" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Machinelearning" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_kaggle_competition/03_MNIST手写字体识别/model.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="model2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06_kaggle_competition/01_Titanic" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Machinelearning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_kaggle_competition/01_Titanic/model2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07_tensorflow/01_入门/04_完整的神经网络.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -335,19 +352,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.model (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.model (2)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.model2" />
-      <item index="3" class="java.lang.String" itemvalue="Python.model_tensorflow" />
-      <item index="4" class="java.lang.String" itemvalue="Python.01_入门" />
+      <item index="0" class="java.lang.String" itemvalue="Python.model_tensorflow" />
+      <item index="1" class="java.lang.String" itemvalue="Python.01_入门" />
+      <item index="2" class="java.lang.String" itemvalue="Python.02_模拟一个前向传播" />
+      <item index="3" class="java.lang.String" itemvalue="Python.03_实现前向传播" />
+      <item index="4" class="java.lang.String" itemvalue="Python.04_完整的神经网络" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.01_入门" />
-        <item index="1" class="java.lang.String" itemvalue="Python.model_tensorflow" />
-        <item index="2" class="java.lang.String" itemvalue="Python.model2" />
-        <item index="3" class="java.lang.String" itemvalue="Python.model (2)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.model (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.04_完整的神经网络" />
+        <item index="1" class="java.lang.String" itemvalue="Python.03_实现前向传播" />
+        <item index="2" class="java.lang.String" itemvalue="Python.02_模拟一个前向传播" />
+        <item index="3" class="java.lang.String" itemvalue="Python.01_入门" />
+        <item index="4" class="java.lang.String" itemvalue="Python.model_tensorflow" />
       </list>
     </recent_temporary>
   </component>
@@ -386,7 +403,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35071707" sideWeight="0.49675325" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44850066" sideWeight="0.49675325" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39374185" sideWeight="0.49675325" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -412,27 +429,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/02_监督学习_回归预测/03_(k近邻回归)预测波士顿房价.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_监督学习_回归预测/05(集成模型回归)预测波士顿房价.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_监督学习_回归预测/04_(回归树)预测波士顿房价.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01_监督学习_分类预测/01_(线性分类器)良恶性肿瘤预测.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
@@ -704,11 +700,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/07_tensorflow/01_入门.py">
+    <entry file="file://$PROJECT_DIR$/07_tensorflow/01_入门/02_模拟一个前向传播.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+        <state relative-caret-position="352">
+          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07_tensorflow/01_入门/01_入门.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="106" column="0" lean-forward="true" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07_tensorflow/01_入门/03_实现前向传播.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07_tensorflow/01_入门/04_完整的神经网络.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

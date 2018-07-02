@@ -60,9 +60,62 @@ def train(mnist):
     # 计算交叉熵 刻画预测值和真实值的差距
     # 多个分类有一个是正确值的时候,采用这个函数计算
     # argmax函数用于得到正确答案对应类别的编号
-    cross_entropy = tf.nn.sparse_softmax_cross_entropy_with_logits(y, tf.argmax(y_, 1))
+    cross_entropy = tf.nn.sparse_softmax_cross_entropy_with_logits(logits=y, labels=tf.argmax(y_, 1))
     # 计算当前batch中所有样例的交叉熵的平均
     cross_entropy_mean = tf.reduce_mean(cross_entropy)
+
+    # 计算l2正则化损失函数
+    regularizer = tf.contrib.layers.l2_regularizer(REGULARIZATION_RATE,)
+    # 计算正则化后的损失
+    regularization = regularizer(weights1) + regularizer(weights2)
+    # 总损失等于交叉熵损失和正则化损失的和
+    loss = cross_entropy_mean = regularization
+    # 设置指数衰减学习率
+    learning_rate = tf.train.exponential_decay(
+        LEARNING_RATE_BASE, # 基础学习率
+        global_step,    # 当前迭代的轮数
+        mnist.train.num_examples / BATCH_SIZE,  # 过完所有训练数据需要的迭代次数
+        LEARNING_RATE_DECAY,    # 学习率衰减速度
+    )
+
+    # 优化损失函数
+    train_step = tf.train.GradientDescentOptimizer(learning_rate).minimize(loss, global_step=global_step)
+    # 每一步训练,都要反向传播更新参数 和 更新滑动平均值
+    with tf.control_dependencies([train_step, variable_averages_op]):
+        train_op = tf.no_op(name="train")
+
+    # average_y 是一个batch_size*10的二位数组 每一行是一个结果
+    # argmax 是在第一个维度选取最大值的下标
+    # equal 比较是否相同 返回bool
+    correct_prediction = tf.equal(tf.argmax(average_y, 1), tf.argmax(y_, 1))
+    # 平均值计算在这个BATCH上的正确率
+    accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
+
+    # 开启会话训练
+    with tf.Session() as sess:
+        tf.initialize_all_variables().run()
+        validate_feed = {
+            x: mnist.validation.images,
+            y_: mnist.validation.labels,
+        }
+        test_feed = {
+            x: mnist.test.images,
+            y_: mnist.validation.labels
+        }
+
+        # 迭代训练
+        for i in range(TRAINING_STEPS):
+            if i % 1000 == 0:
+                validate_acc = sess.run(accuracy, feed_dict=validate_feed)
+                print("经过%i迭代后 准确率:%s" % (i, validate_acc))
+            # 产生这一轮使用的batch数据 运行训练过程
+            xs, ys = mnist.train.naxt_batch(BATCH_SIZE)
+            sess.run(train_op, feed_dict={x: xs, y_: ys})
+
+        # 训练后的最终结果
+        test_acc = sess.run(accuracy, feed_dict=test_feed)
+        print("训练的最终结果:%s" % test_acc)
+
 
 
 

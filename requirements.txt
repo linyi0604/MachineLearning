@@ -45,7 +45,7 @@ surprise==0.1
 tensorboard==1.8.0
 tensorflow==1.8.0
 termcolor==1.1.0
-urllib3==1.22
+urllib3==1.26.5
 Werkzeug==0.14.1
 xgboost==0.71
 xlrd==1.1.0

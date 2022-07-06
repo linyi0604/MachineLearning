@@ -15,7 +15,7 @@ et-xmlfile==1.0.1
 gast==0.2.0
 gensim==3.4.0
 grpcio==1.11.0
-html5lib==0.9999999
+html5lib==0.999999999
 idna==2.6
 jdcal==1.3
 jieba==0.39
